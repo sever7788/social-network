@@ -1,19 +1,28 @@
-.nav{
-    float:left;
-    margin:10px;
-    padding: 20px;
-    background-color: royalblue;
-    border-radius: 5px;
-    border: 5px;
-    border-color: midnightblue;
-    height: 500px;
-  }
-
-.item a{
-  color: white;
-  text-decoration: none;
+.nav {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  width: 100px;
+  vertical-align: top;
+  background-color: #202020;
+  border-radius: 5px;
+  border: 5px;
 }
 
-.item a.activeLink{
-  color: gold;
+a {}
+
+.item {
+
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.item a {
+  width: 100%;
+  text-decoration: none;
+  color: #00d8ff;
+}
+
+.item .activeLink {
+  color: darkorange;
 }

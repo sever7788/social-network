@@ -1,4 +1,51 @@
-.ava{
-    width:100px;
-    
+.ava {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+.cardPhoto {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 15px;
+}
+.contact{
+    padding-left: 10px;
+}
+.uploadPhoto {
+    margin-left: 13px;
+}
+
+#contacts {
+    display: block;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile+label {
+    padding: 2px;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: darkorange;
+    background-color: black;
+    display: inline-block;
+    border-color: chocolate;
+    outline: 2px solid chocolate;
+    /* Чёрная рамка */
+}
+
+.inputfile:focus+label, .inputfile+label:hover {
+    color: #00d8ff;
+    outline-color: #00d8ff;
+}
+
+.inputfile+label {
+    cursor: pointer;
+    /* "hand" cursor */
 }
