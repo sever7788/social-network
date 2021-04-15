@@ -1,4 +1,4 @@
-## Для авторизации
+## Для авторизации в https://sever7788.github.io/demo-samurai/
 Login: severinec7788@mail.ru
 
 Password: 1e2w3q3q2w1e.
