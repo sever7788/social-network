@@ -1,3 +1,7 @@
+## Для авторизации
+Login: severinec7788@mail.ru
+Password: 1e2w3q3q2w1e.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
